@@ -1,4 +1,5 @@
-# Blog Assistant Chatbot
+# Blog Assistant Chatbot 
+**Live App:** [View App](https://gen-ai-tasks-3b4drihswrknbycdyf4scs.streamlit.app/)
 
 A Streamlit-based Blog Assistant Chatbot powered by Google's Gemini AI.
 
