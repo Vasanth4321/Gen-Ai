@@ -99,4 +99,4 @@ The application will open in your browser.
 
 ## Author
 
-Developed as part of a Generative AI assignment/project.
+Developed as part of a Generative AI project.
