@@ -16,7 +16,7 @@ The application automatically ingests raw incoming customer support tickets, dyn
 ## Project Structure
 
 ```text
-Task_3/
+AI Support Ticket Triager/
 │
 ├── main.py          # Streamlit user interface, state machine coordinator, & feedback hooks
 ├── model.py         # RunnableParallel graph compilation & ChatGroq API mappings

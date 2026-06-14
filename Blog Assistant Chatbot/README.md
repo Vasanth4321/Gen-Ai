@@ -21,7 +21,7 @@ The application helps users generate blog ideas, create outlines, improve conten
 ## Project Structure
 
 ```text
-Task_2/
+Blog Assistant Chatbot/
 │
 ├── app.py
 ├── gemini_client.py

@@ -1,29 +1,37 @@
-# Gen AI Tasks
+# Gen AI
 
 This repository contains Generative AI assignments and projects developed using Python, Google Gemini, and Streamlit.
 
 ## Repository Structure
 
 ```text
-Gen AI Tasks/
+Gen AI/
 │
 ├── README.md
 ├── .gitignore
 │
-├── Task_1/
-│   └── GenAI_Task_01.ipynb
+├── reasoning_prompts/
+│   └── llm_prompts.ipynb
 │
-└── Task_2/
-    ├── app.py
-    ├── gemini_client.py
-    ├── requirements.txt
-    ├── README.md
-    └── .env.example
+├── Blog Assistant Chatbot/
+│   ├── app.py
+│   ├── gemini_client.py
+│   ├── requirements.txt
+│   ├── README.md
+│   └── .env.example
+│
+└── AI Support Ticket Triager/
+    ├── main.py          
+    ├── model.py        
+    ├── prompt.py        
+    ├── parser.py        
+    ├── requirements.txt 
+    └── .env  
 ```
 
-## Task 1
+## Reasoning Prompts
 
-### GenAI_Task_01.ipynb
+### llm_prompts.ipynb
 
 A Jupyter Notebook containing the implementation and experimentation for Task 1.
 
@@ -35,7 +43,7 @@ A Jupyter Notebook containing the implementation and experimentation for Task 1.
 
 ---
 
-## Task 2
+## Blog Assistant Chatbot
 
 ### Blog Assistant Chatbot
 
@@ -55,7 +63,7 @@ A Streamlit-based chatbot powered by Google's Gemini AI that helps users:
 * Google Gemini API
 * python-dotenv
 
-Refer to the Task2 README for detailed setup and usage instructions.
+Refer to the Blog Assistant Chatbot README for detailed setup and usage instructions.
 
 ---
 
@@ -65,10 +73,10 @@ Refer to the Task2 README for detailed setup and usage instructions.
 
 ```bash
 git clone https://github.com/Vasanth4321/Gen-Ai-Tasks.git
-cd "Gen AI Tasks"
+cd "Gen AI"
 ```
 
-### Task 1
+### Reasoning Prompts
 
 Open the notebook:
 
@@ -79,12 +87,18 @@ jupyter notebook
 and launch:
 
 ```text
-Task_1/GenAI_Task_01.ipynb
+reasoning_prompts/llm_prompts.ipynb
 ```
 
-### Task 2
+### Blog Assistant Chatbot/
 
-Navigate to the Task2 directory and follow the instructions in its README file.
+Navigate to the Blog Assistant Chatbot directory and follow the instructions in its README file.
+
+---
+
+### AI Support Ticket Triager
+
+Navigate to the AI Support Ticket Triager directory and follow the instructions in its README file.
 
 ---
 
@@ -96,7 +110,6 @@ Navigate to the Task2 directory and follow the instructions in its README file.
 * Generated logs and cache files are excluded from version control.
 
 ---
-
 ## Author
 
 Vasanth Neeli
