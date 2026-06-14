@@ -10,17 +10,17 @@ Gen AI/
 ├── README.md
 ├── .gitignore
 │
-├── reasoning_prompts/
+├── Reasoning_Prompts/
 │   └── llm_prompts.ipynb
 │
-├── Blog Assistant Chatbot/
+├── Blog_Assistant_Chatbot/
 │   ├── app.py
 │   ├── gemini_client.py
 │   ├── requirements.txt
 │   ├── README.md
 │   └── .env.example
 │
-└── AI Support Ticket Triager/
+└── AI_Support_Ticket_Triager/
     ├── main.py          
     ├── model.py        
     ├── prompt.py        
@@ -84,7 +84,7 @@ A Streamlit-based AI automation agent deployed on Hugging Face that ingests, pro
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Vasanth4321/Gen-Ai-Tasks.git
+git clone https://github.com/Vasanth4321/Gen-Ai.git
 cd "Gen AI"
 ```
 
@@ -99,7 +99,7 @@ jupyter notebook
 and launch:
 
 ```text
-reasoning_prompts/llm_prompts.ipynb
+Reasoning_Prompts/llm_prompts.ipynb
 ```
 
 ### Blog Assistant Chatbot
